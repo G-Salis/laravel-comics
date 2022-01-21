@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  min-height: 150px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+ul li {
+  margin-left: 10px;
+  line-height: 146px;
+  border-bottom: 4px solid transparent;
+}
+ul li:hover {
+  color: #0282F9;
+  cursor: pointer;
+  border-bottom: 4px solid #0282F9;
+}
+ul a {
+  text-decoration: none;
+  color: black;
+}
+ul a:hover {
+  color: #0282F9;
+  cursor: pointer;
+}
+
+header {
+  background-color: white;
+  height: 150px;
+}
+
+.jumbotron {
+  height: 530px;
+  background-image: url("/img/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.box {
+  background-color: #0282F9;
+  color: white;
+  height: 50px;
+  position: absolute;
+  left: 167px;
+  bottom: -25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  padding: 5px;
+}
+
+main {
+  background-color: black;
+  color: white;
+  min-height: 200px;
+  padding: 20px 0px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  min-height: 150px;
+}
+
+.button-main {
+  text-align: center;
+}
+.button-main button {
+  background-color: #0282F9;
+  padding: 10px 60px;
+  border: none;
+  margin-top: 30px;
+  cursor: pointer;
+  margin: auto;
+}
+.button-main button a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+section {
+  background-color: #0282F9;
+  height: 150px;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+div img {
+  width: 50px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+footer {
+  background-image: url("/img/footer-bg.jpg");
+  height: 400px;
+}
+
+footer div {
+  display: block;
+}
+
+.bg-img {
+  background-image: url("/img/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 400px;
+  padding: 50px 0px;
+}
+
+.container {
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+  width: 80%;
+  margin: 0 auto;
+  min-height: 150px;
+}
+
+.left-list, .center-list, .right-list {
+  margin-right: 15px;
+}
+
+.center-list div, .left-list div, .right-list div {
+  color: White;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.left-list ul, .right-list ul {
+  display: block;
+}
+
+.center-list ul {
+  display: block;
+  list-style: none;
+  color: darkgray;
+}
+
+.fix-div {
+  display: block;
+}
+
+.center-list ul li, .left-list ul li, .right-list ul li {
+  margin-bottom: 15px;
+  margin-left: 0px;
+  line-height: 0px;
+  border-bottom: 4px solid transparent;
+}
+
+li:hover {
+  border-bottom: 4px solid transparent;
+}
+
+a {
+  text-decoration: none;
+  color: darkgray;
+  font-size: 12px;
+}
+
+a:hover {
+  color: #0282F9;
+  cursor: pointer;
+}
+
+section {
+  background-color: #303030;
+  min-height: 100px;
+}
+
+button {
+  background-color: #303030;
+  border: 2px solid #0282F9;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+img {
+  margin: 0px 10px;
+}
+
+span {
+  font-size: 25px;
+  color: #0282F9;
+  font-weight: 900;
+  vertical-align: super;
+}

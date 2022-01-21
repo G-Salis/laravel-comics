@@ -1,0 +1,68 @@
+footer{
+  background-image: url('/img/footer-bg.jpg');
+  height: 400px;
+}
+footer div{
+ display: block;
+}
+
+.bg-img{
+  background-image: url('/img/dc-logo-bg.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 400px;
+  padding: 50px 0px;
+}
+
+.container{
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+  width: 80%;
+  margin: 0 auto;
+  min-height: 150px;
+}
+
+.left-list, .center-list, .right-list{
+  margin-right: 15px
+}
+
+.center-list div, .left-list div, .right-list div{
+color: White;
+font-weight: 900;
+margin-bottom: 10px;
+}
+
+.left-list ul, .right-list ul{
+  display: block;
+}
+
+.center-list ul {
+  display: block;
+  list-style: none;
+  color: darkgray;
+  }
+
+.fix-div{
+  display: block;
+}
+  
+  .center-list ul li, .left-list ul li, .right-list ul li{
+    margin-bottom: 15px;
+    margin-left: 0px;
+    line-height: 0px;
+    border-bottom: 4px solid transparent;
+  }
+    li:hover{
+      border-bottom:  4px solid transparent;
+    
+  }
+  a{
+    text-decoration: none;
+    color: darkgray;
+    font-size: 12px;
+  }
+  a:hover{
+    color: #0282F9;
+    cursor: pointer;
+    }
